@@ -72,7 +72,6 @@
         </div>
 
         <div class="items-container row">
-          <!-- Case Block -->
           <div class="single-portfolio-area masonry-item all cat-1 col-lg-4 col-md-6 col-sm-12">
             <div class="inner-box">
               <div class="image">
