@@ -1,29 +1,262 @@
-### Hi there 👋, Arnab Roy
-#### Web Designe
-![Web Designe](https://github.com/arnobr2)
+<!DOCTYPE html>
+<html lang="en">
 
-I'm a Web Designer & Website Developer. My fields of expertise are Front End Web Design. I have an experience of more than 5 years in the mentioned fields. My main objective is to satisfy the clients with quality work and timely handover. I am a very good communicator and fast learner. Please go through my portfolios and judge the works before proceeding. 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-Skills: Html5/Css3/Javascript/Bootstrap/Php/Less/Jquery/Website Design/Web Development/Adobe Photoshop/Wordpress/Adobe Illustrator/Front-end web development
+<body>
+  <nav class="navbar navbar-expand-lg container-fluid">
+    <div class="container">
+      <a class="navbar-brand" href="#">Arnob Roy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="banner">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/img-(1).png" class="d-block w-100" alt="..1.">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/img-(2).png" class="d-block w-100" alt="..2.">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/img-(3).png" class="d-block w-100" alt="..3.">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Portfolio Section -->
+  <section class="portfolio-section">
+    <div class="container">
+      <!--Sortable Galery-->
+      <div class="sortable-masonry">
+        <!--Filter-->
+        <div class="filters">
+          <ul class="filter-tabs filter-btns ">
+            <li class="filter active" data-role="button" data-filter=".all">All Topics <span class="count">0</span></li>
+            <li class="filter" data-role="button" data-filter=".cat-1">Business <span class="count">0</span></li>
+            <li class="filter" data-role="button" data-filter=".cat-2">Coaching <span class="count">0</span></li>
+            <li class="filter" data-role="button" data-filter=".cat-3">Financial <span class="count">0</span></li>
+            <li class="filter" data-role="button" data-filter=".cat-4">Marketing <span class="count">0</span></li>
+            <li class="filter" data-role="button" data-filter=".cat-5">Technical <span class="count">0</span></li>
+          </ul>
+        </div>
 
-- 🔭 I’m currently working on Creative IT Institute 
+        <div class="items-container row">
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-1 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-1.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Marketing</h5>
+                  <h4>Business Leadership</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-2 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-2.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Technical</h5>
+                  <h4>Market Expansion</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-1 cat-2 cat-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-3.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Coaching</h5>
+                  <h4>Money Savings</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-5 cat-2 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-4.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Business</h5>
+                  <h4>Helthy Solutions</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-2 cat-1 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-5.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Marketing</h5>
+                  <h4>Startup Business</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-3 cat-5 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-6.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Technical</h5>
+                  <h4>Market Expansion</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-1 cat-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-7.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Marketing</h5>
+                  <h4>Business Leadership</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-1 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-8.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Financial</h5>
+                  <h4>Capital Management</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Case Block -->
+          <div class="single-portfolio-area masonry-item all cat-4 cat-5 col-lg-4 col-md-6 col-sm-12">
+            <div class="inner-box">
+              <div class="image">
+                <img src="images/gallery-9.png" alt="">
+              </div>
+              <div class="overlay">
+                <div class="title"><span class="icon"><img
+                      src="https://res.cloudinary.com/pwdsumon/image/upload/v1623674839/filter/icon.png"
+                      alt=""></span>Precision</div>
+                <div class="link-btn"><a href="#"><i class="fas fa-angle-right"></i>View</a></div>
+                <div class="content">
+                  <h5>Financial</h5>
+                  <h4>Capital Management</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="link-btn text-center">
+          <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Load More</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/https://github.com/arnobr2)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://web.facebook.com/eng.arnob/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/https://twitter.com/arnobr2)  
+  <!--Js Links Part Start-->
+  <script src="js/jquery3.6.0.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-<a href='https://archiveprogram.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif' width='40' height='40'></a> <a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://github.com/pricing'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a> 
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=https://github.com/arnobr2)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/arnobr2)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=https://github.com/arnobr2&show_icons=true&count_private=true)  
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=https://github.com/arnobr2)  
-
-![GitHub metrics](https://metrics.lecoq.io/https://github.com/arnobr2)  
-
-![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/arnobr2)  
-
-![Profile views](https://gpvc.arturio.dev/https://github.com/arnobr2)  
-
+</html>
