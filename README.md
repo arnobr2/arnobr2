@@ -1,13 +1,5 @@
 ### Hi there 👋, Arnab Roy
 #### Web Designe
-<div class="menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul id="menu-center" class=" navbar-right">
-                            <li><a href="#">who we are</a></li>
-                            <li><a href="#">services</a></li>
-                            <li><a href="#">Our work</a></li>
-                            <li><a class="active" href="#">Contact us</a></li>
-                        </ul>
-                    </div>
 ![Web Designe](https://github.com/arnobr2)
 
 I'm a Web Designer & Website Developer. My fields of expertise are Front End Web Design. I have an experience of more than 5 years in the mentioned fields. My main objective is to satisfy the clients with quality work and timely handover. I am a very good communicator and fast learner. Please go through my portfolios and judge the works before proceeding. 
